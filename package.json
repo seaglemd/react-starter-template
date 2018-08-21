@@ -1,0 +1,43 @@
+{
+  "name": "react-starter-template",
+  "version": "1.0.0",
+  "description": "Webpack base for sass, javascript, minification, the good stuff with react",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seaglemd/react-starter-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "scripts": {
+    "//": "normal for dev",
+    "watch": "webpack --watch",
+    "start": "webpack --watch & webpack-dev-server --open-page 'webpack-dev-server/index.html'",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-md5-hash": "0.0.6"
+  }
+}
